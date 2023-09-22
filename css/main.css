@@ -87,6 +87,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*----GENERAL----*/
+
+body {
+  font-size: 1em;
+  font-family: 'Lekton', sans-serif;
+  color: #152A3E;
+  background-color: white;
+}
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -175,17 +190,14 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /*----TABLET STYLES----*/
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media only screen and (min-width: 1200px) {
+  /*----DESKTOP STYLES----*/
 }
-
+ 
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
