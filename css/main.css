@@ -391,7 +391,7 @@ header h2 {
 }
 
 .skills-wrapper p,
-.tools-wrapper {
+.tools-wrapper p{
   background-color: #E9B14C;
   padding: 15px 0;
   margin: 20px;
@@ -418,6 +418,53 @@ header h2 {
 }
 
 /*----FOOTER----*/
+
+footer {
+  background-color: #152A3E;
+}
+
+footer .contact-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+footer .contact-info {
+  width: 60%;
+}
+
+footer h4 {
+  width: 100%;
+}
+
+footer .social-media {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul {
+  width: 100%;
+}
+
+footer .social-icons li {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons li i {
+  font-size: 1.875rem;
+  color: #E9B14C;
+}
 
 /* ==========================================================================
    Helper classes
@@ -509,6 +556,13 @@ header h2 {
 
 @media only screen and (min-width: 768px) {
   /*----TABLET STYLES----*/
+
+  /*----General----*/
+
+  .content-wrapper {
+    max-width: 640px;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
