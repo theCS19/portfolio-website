@@ -182,7 +182,7 @@ address {
 }
 
 header,
-#work,
+#projects,
 #skills,
 #about,
 footer {
@@ -395,6 +395,10 @@ header h2 {
   background-color: #E9B14C;
   padding: 15px 0;
   margin: 20px;
+}
+
+.tools-wrapper {
+  padding-right: 40px;
 }
 
 .tool {
@@ -770,8 +774,195 @@ footer .social-icons li i {
 
 }
 
+@media only screen and (min-width: 1024px) {
+/*----LANDSCAPE TABLET----*/
+
+.content-wrapper {
+  max-width: 900px;
+}
+
+.about-info h3 {
+  font-size: 3.5rem;
+}
+
+}
+
 @media only screen and (min-width: 1200px) {
   /*----DESKTOP STYLES----*/
+
+  .content-wrapper {
+    max-width: 1450px;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+  }
+
+  .about-info h3 {
+    font-size: 3.75rem;
+    text-align: left;
+  }
+
+  .about-info h4 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  .proj-link,
+  .skills-wrapper p,
+  .tools-wrapper p {
+    font-size: 1rem;
+  }
+
+  header {
+    padding-top: 80px;
+    padding-bottom: 140px;
+  }
+
+  nav {
+    margin-bottom: 80px;
+  }
+
+  #projects {
+    padding-top: 80px;
+  }
+
+  #skills {
+    padding-bottom: 120px;
+  }
+
+  #about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  footer {
+    padding: 140px 0 140px 0;
+  }
+
+  h2 {
+    margin: 40px 0 0 0;
+  }
+
+  .port-header {
+    margin: 0 0 60px 0;
+  }
+
+  .proj-desc {
+    margin: 0 0 30px 0;
+  }
+
+  .proj-link {
+    margin: 40px 0 80px 0;
+  }
+
+  #skills {
+    padding-top: 120px;
+  }
+
+  #skills .content-wrapper {
+    max-width: 900px;
+  }
+
+  .skills-header {
+    margin-bottom: 40px;
+  }
+
+  .about-info h3 {
+    margin: 0;
+  }
+
+  .about-info h4 {
+    margin: 40px 0;
+  }
+
+  .about-text {
+    margin: 0 0 30px 0;
+  }
+
+  .contact-info {
+    margin: 80px 0 80px 0;
+  }
+
+  .contact-title {
+    margin: 0 0 30px 0;
+  }
+
+  header .content-wrapper {
+    justify-content: flex-end;
+  }
+
+  header nav {
+    justify-content: flex-end;
+    width: 45%;
+  }
+
+  nav ul li a {
+    padding: 10px 10px;
+  }
+
+  nav ul li a:hover,
+  nav #contact-link:hover {
+    background-color: #F8D697;
+    padding: 10px 10px;
+    border-radius: 30px;
+  }
+
+  .top-title {
+    max-width: 95%;
+    padding-right: 90px;
+  }
+
+  .top-title h2 {
+    max-width: 70%;
+  }
+
+  .port-project {
+    width: 30%;
+  }
+
+  .skill,
+  .tool {
+    width: 30%;
+  }
+
+  .about-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #about figure {
+    width: 35%;
+    margin-top: 0;
+  }
+
+  .about-info {
+    width: 60%;
+  }
+
+  footer .content-wrapper {
+    max-width: 70%;
+  }
+
 }
 
 /* ==========================================================================
